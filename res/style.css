@@ -351,3 +351,25 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     text-align: initial;
 }
 
+@media only screen and (max-width: 420px) 
+{
+    .title-text h1
+    {
+    font-size: 20px;
+    }
+    .features
+    {
+     flex-basis: 100%;
+    }
+    .features-img
+    {
+    flex-basis: 100%;
+    }
+    .features-img img
+    {
+    width: 100%;
+    }
+}
+
+
+
