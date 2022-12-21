@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Spectral', serif;
 }
 
 #banner {
@@ -224,15 +225,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 }
 
-
-.toggler:checked~.menu>div>ul>li>a:hover {
-    color: black;
-}
-
-.toggler:checked~.menu>div>ul>li>a:hover {
-    color: white;
-}
-
+/* Mobile view settings */
 @media only screen and (max-width: 420px) 
 {
     .toggler:checked~.menu {
@@ -242,15 +235,30 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     .menu>div>ul {
         display: flex;
         width: 100%;
-        
     }
 
     .menu>div>ul>li {
         width: 100%;
         text-align: center;
         padding-left: 0;
-        
     }
+
+    .logo
+    {
+        width: 13%;
+    }
+
+    .banner-text h1 
+    {
+        font-size: 140%;
+        padding-bottom: 10%;
+    }
+    .banner-text h2
+    {
+        font-size: medium;
+    }
+
+
 
     
     
