@@ -78,7 +78,7 @@
     z-index: 2;
     height: 50px;
     width: 50px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 .hamburger {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 40px;
@@ -468,10 +468,11 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 @media only screen and (max-width: 420px) 
 {
-    .single-service
+    .single-sertvice
     {
     flex-basis: 100%;
     margin-bottom: 10%;
+    
     }
 
     single-service:onclick .service-desc
@@ -483,5 +484,92 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 }
 
+/* A tetovalasrol */
 
+#about
+{
+    width: 100%;
+    padding: 70px 0;
+    background: white;
+}
 
+.tattoo-box
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.tattoo-box
+{
+    text-align: left;
+}
+
+.tattoo-box p
+{
+    padding: 4%;
+    font-size: larger;
+}
+
+.tattoo-box img
+{
+    border-radius: 50%;
+    width: 25%;
+}
+
+#footer
+{
+    width: 100%;
+    padding: 100px 0 20px;
+    background: #efefef;
+}
+
+.footer-row
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right
+{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 21px;
+}
+
+.footer-right
+{
+    text-align: right;
+}
+
+.footer-row h1
+{
+    margin: 10px 0;
+}
+
+.footer-row p
+{
+    line-height: 35px;
+}
+
+.footer-left .fa-regular, .footer-right .fa-solid
+{
+    font-size: 20px;
+    color: rgb(2, 99, 70);
+    padding: 2%;
+}
+
+.footer-img
+{
+    max-width: 370px;
+    opacity: 0.2;
+    position: absolute;
+    left: 35%;
+
+}

@@ -36,6 +36,8 @@
 
     <script src="https://kit.fontawesome.com/51d8255158.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
 </head>
 
 <body>
@@ -47,7 +49,7 @@
             <h2 id="quote">"A testem a naplóm, a tetoválásaim pedig az én történetem."</h2>
         </div>
         <div class="container">
-            <a href="#" class="btn">
+            <a href="#feature" class="btn">
                 <span></span><i class="fa-solid fa-arrow-down fa-3x"></i>
             </a>
         </div>
@@ -61,10 +63,10 @@
     <div class="menu">
         <div>
             <ul>
-                <li><a href='#'>Rolunk</a></li>
-                <li><a href='#'>A tetovalasrol</a></li>
-                <li><a href='#'>Szolgaltatasok</a></li>
-                <li><a href='#'>Elerhetoseg</a></li>
+                <li><a href='#feature'>Rolunk</a></li>
+                <li><a href='#service'>Szolgaltatasok</a></li>
+                <li><a href='#about'>A tetovalasrol</a></li>
+                <li><a href='#footer'>Elerhetoseg</a></li>
             </ul>
         </div>
     </div>
@@ -158,11 +160,55 @@
 
     </section>
 
+    <!-- A tetovalasrol -->
+    <section id="about">
+        <div class="title-text">
+            <p>A TETOVALASROL</p>
+            <h1>Bor es tinta</h1>
+        </div>
+
+        <div class="tattoo-box">
+            <img src="res\process.jpg">
+            <div class="tattoo1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus aliquid enim natus ipsam mollitia accusantium deserunt quos autem perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nisi dolorem recusandae cum nobis cumque a nemo, unde repudiandae assumenda doloribus qui autem numquam labore cupiditate mollitia excepturi voluptates nam.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aperiam saepe voluptates minus, nulla tempore optio quos.</p>
 
 
+        </div>
 
 
+    </section>
 
+    <!-- Footer -->
+
+    <section id="footer">
+        <img src="res\tattoom.png" class="footer-img">
+        <div class="title-text">
+            <p>ELERHETOSEGEK</p>
+            <h1>Latogass el hozzank ma</h1>
+        </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Nyitvatartas</h1>
+            <p><i class="fa-regular fa-clock"></i>Hetfotol Pentekig 9am - 5pm</p>
+            <p><i class="fa-regular fa-clock"></i>Szombat 10am - 12pm</p>
+        </div>
+        <div class="footer-right">
+            <h1>Elerhetosegeink</h1>
+            <p>+36 30 155 91 75 <i class="fa-solid fa-phone"></i></p>
+            <p>9700 Szombathely Urania udvar 11 <i class="fa-solid fa-location-dot"></i></p>
+            <p>leguan.tattoo@gmail.com <i class="fa-solid fa-at"></i></p>
+        </div>
+    </div>    
+    </section>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000
+});
+</script>
 
 </body>
 
