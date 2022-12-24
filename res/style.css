@@ -492,6 +492,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     width: 100%;
     padding: 70px 0;
     background: white;
+
 }
 
 .tattoo-box
@@ -499,26 +500,29 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     width: 80%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-
-.tattoo-box
-{
-    text-align: left;
+    justify-content: center;
+    padding-bottom: 5%;
 }
 
 .tattoo-box p
 {
-    padding: 4%;
-    font-size: larger;
+    padding-top: 2%;
+    font-size: medium;
+    padding-left: 5%;
 }
 
-.tattoo-box img
+.tattoo-box .tattoo1
 {
+    padding-top: 2%;
+    font-size: medium;
+    padding-left: 5%;
+    justify-content: center;
+}
+
+.tattoo-img img
+{
+    width: 100%;
     border-radius: 50%;
-    width: 25%;
 }
 
 #footer
