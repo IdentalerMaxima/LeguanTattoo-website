@@ -1,31 +1,36 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;  
 }
 
-#banner {
+#banner 
+{
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(p3.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
-.logo {
-    width: 70px;
+.logo 
+{
+    width: 4%;
     position: absolute;
     /* position */
     top: 2%;
     left: 2%;
 }
 
-.banner-text {
+.banner-text 
+{
     text-align: center;
     color: white;
     padding-top: 180px;
 }
 
-.banner-text h1 {
+.banner-text h1 
+{
     font-size: 100px;
     font-family: 'Spectral', serif;
     /* font-family: 'Aboreto', cursive; */
@@ -37,12 +42,14 @@
     text-transform: uppercase;
 }
 
-.banner-text h2 {
+.banner-text h2 
+{
     font-size: 25px;
     font-family: 'Spectral', serif;
 }
 
-.container {
+.container 
+{
     display: flex;
     width: 100%;
     align-items: center;
@@ -50,7 +57,8 @@
     padding-top: 10%;
 }
 
-.btn {
+.btn 
+{
     width: 70px;
     height: 70px;
     border: 2px solid rgba(255, 255, 255, 0.441);
@@ -63,32 +71,36 @@
     text-align: center;
 }
 
-.btn:hover {
+.btn:hover 
+{
     transition: background-color 0.3s ease;
     background-color: rgba(255, 255, 255, 0.918);
 }
 
-.btn:hover i {
+.btn:hover i 
+{
     color: rgba(10, 10, 10, 0.655);
 }
 
 /* Hamburger menu */
 
-.toggler {
+.toggler 
+{
     z-index: 4;
     height: 50px;
     width: 50px;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 10;
+    right: 10;
     cursor: pointer;
     opacity: 0;
 }
 
-.hamburger {
+.hamburger 
+{
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 10;
+    right: 10;
     height: 40px;
     width: 40px;
     padding: 0.6rem;
@@ -103,7 +115,8 @@
 
 /*THE MIDDLE LINE OF THE HAMBURGER : */
 
-.hamburger>div {
+.hamburger>div 
+{
     position: relative;
     top: 0;
     left: 0;
@@ -155,7 +168,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT :  */
 
-.menu {
+.menu 
+{
     background: rgb(3, 56, 48);
     width: 0;
     height: 100vh;
@@ -163,6 +177,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     position: fixed;
     top: 0;
     right: 0;
+
     /* APPLYING TRANSITION TO THE MENU :  */
 
     transition: all 0.4s ease;
@@ -171,14 +186,16 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 30% , CREATING A SMOOTH EFFECT :  */
 
-.toggler:checked~.menu {
+.toggler:checked~.menu 
+{
     width: 20vw;
 }
 
 
 /* STYLING THE LIST :  */
 
-.menu>div>ul {
+.menu>div>ul 
+{
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -187,13 +204,13 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     height: 100vh;
     width: 20vw;
 
-
     /* HIDDEN INITIALLY  :  */
 
     visibility: hidden;
 }
 
-.menu>div>ul>a {
+.menu>div>ul>a 
+{
     list-style: none;
     padding: 20px;
     font-size: small;
@@ -204,13 +221,15 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     
 }
 
-.menu>div>ul>a:hover {
+.menu>div>ul>a:hover 
+{
     background-color: rgb(2, 99, 70);
     
 }
 
 
-.menu>div>ul>a>li {
+.menu>div>ul>a>li 
+{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 18px;
@@ -219,14 +238,15 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* WHEN THE TOGGLER IS CHECKED, CHANGE THE VISIBILITY TO VISIBLE :  */
 
-.toggler:checked~.menu>div>ul {
+.toggler:checked~.menu>div>ul 
+{
     transition: visibility 0.4s ease;
     transition-delay: 0.26s;
     visibility: visible;
 
 }
 
-/* Mobile view settings */
+/* MOBILE VIEW */
 @media only screen and (max-width: 420px) 
 {
     .toggler:checked~.menu {
@@ -265,7 +285,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     
 }
 
-/* feature  */
+/* RÓLUNK/ABOUT  */
 
 #feature
 {
@@ -349,7 +369,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     border: 1px solid rgb(2, 99, 70);
 }
 
-.feature-text p{
+.feature-text p
+{
     padding: 0 20px;
     text-align: initial;
 }
@@ -374,7 +395,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     }
 }
 
-/* Szolgaltatasok */
+/* SZOLGÁLTATÁSAINK/SERVICES */
 #service
 {
     width: 100%;
@@ -485,7 +506,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 }
 
-/* A tetovalasrol */
+/* A TETOVÁLÁSRÓL */
 
 #about
 {
@@ -525,11 +546,46 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     border-radius: 50%;
 }
 
+/* GALÉRIA */
+
+
+#gallery
+{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+
+}
+
+.gallery-box 
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+
+.gallery-box .gallery1 img
+{
+    
+    height: 10%;
+    padding: 4px;
+    max-width:35%;
+
+}
+
+.gallery-box .gallery1 a
+{
+    width: 500px;
+    height: 10%;
+}
+
+/* ELÉRHETŐSEG/FOOTER */
 #footer
 {
     width: 100%;
     padding: 100px 0 20px;
-    background: #efefef;
+    background: white;
 }
 
 .footer-row
