@@ -256,9 +256,17 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     .menu>div>ul {
         display: flex;
         width: 100%;
+        
+
     }
 
     .menu>div>ul>li {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .menu>div>ul>a {
         width: 100%;
         text-align: center;
         padding-left: 0;
@@ -278,10 +286,6 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     {
         font-size: medium;
     }
-
-
-
-    
     
 }
 
@@ -551,33 +555,58 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 #gallery
 {
-    width: 100%;
-    padding: 70px 0;
+    box-sizing: border-box;
     background: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+}
+
+#gallery .title-text
+{
+    padding-top: 7%;
 
 }
 
 .gallery-box 
 {
     display: flex;
-    justify-content: center;
-    padding-left: 10%;
-
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
 }
 
-.gallery-box .gallery1 img
+.gallery-box .row 
 {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+
+.gallery-box .row img
+{
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 420px){
+
+    .gallery-box 
+{
+    flex-direction: column;
+    width: 100%;
+}
+.gallery-box .row 
+{
+    width: 100%;
+}
     
-    height: 10%;
-    padding: 4px;
-    max-width:35%;
-
-}
-
-.gallery-box .gallery1 a
-{
-    width: 500px;
-    height: 10%;
 }
 
 /* ELÉRHETŐSEG/FOOTER */
