@@ -494,7 +494,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 @media only screen and (max-width: 420px) 
 {
-    .single-sertvice
+    .single-service
     {
     flex-basis: 100%;
     margin-bottom: 10%;
@@ -507,6 +507,13 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     opacity: 1;
     
     }
+
+    .single-service img
+{
+    width: 100%;
+    border-radius: 7px;
+    height: 400px;
+}
 
 }
 
@@ -606,6 +613,21 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 {
     width: 100%;
 }
+
+#gallery
+{
+    margin: 0%;
+
+}
+
+.gallery-box .row img
+{
+    width: 80%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+
     
 }
 
@@ -662,4 +684,25 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     position: absolute;
     left: 35%;
 
+}
+
+@media only screen and (max-width: 420px) 
+{
+    .footer-img
+{
+    width: 0;
+
+}
+
+.footer-right
+{
+    text-align: left;
+}
+
+#footer
+{
+
+    background: white;
+}
+    
 }
