@@ -211,7 +211,27 @@
     </section>
 
     <!-- Footer -->
+<?php
 
+    $open = 8;
+    $close = 16;
+    $info = "Ügyfélszolgálatunk jelenleg elérhető";
+    $now = (int) date("H");
+    
+    if($now < $open)
+    {
+        $next = $open - $now;
+        $info = "Ügyfélszolgálatunk jelenleg még zárva tart, legközelebb ". $next ." óra múlva tud kapcsolatba lépni velünk";
+    }
+    else
+    if($now >= $close)
+    {
+        $next = 24 - $now + $open;
+        $info = "Ügyfélszolgálatunk a mai napon már nem elérhető, legközelebb ". $next ." óra múlva tud kapcsolatba lépni velünk";
+    }
+    
+    echo '
+    
     <section id="footer">
         <img src="res\tattoom.png" class="footer-img">
         <div class="title-text">
@@ -221,8 +241,8 @@
     <div class="footer-row">
         <div class="footer-left">
             <h1>Nyitvatartás</h1>
-            <p><i class="fa-regular fa-clock"></i>Hetfőtől Péntekig 9am - 5pm</p>
-            <p><i class="fa-regular fa-clock"></i>Szombat 10am - 12pm</p>
+            <p><i class="fa-regular fa-clock"></i>Nyitvatartás: H-V, '. $open .'-'. $close .' óráig</p>
+            <p><i class="fa-regular fa-clock"></i>'. $info .'</p></p>
         </div>
         <div class="footer-right">
             <h1>Elérhetőségeink</h1>
@@ -231,7 +251,9 @@
             <p>leguan.tattoo@gmail.com <i class="fa-solid fa-at"></i></p>
         </div>
     </div>    
-    </section>
+    </section>';
+
+?>
 
 <script>
     var scroll = new SmoothScroll('a[href*="#"]', {
