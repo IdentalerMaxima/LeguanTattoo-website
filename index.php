@@ -47,7 +47,6 @@
 <body>
     <!-- Main Page -->
     <section id="banner">
-        <img src="res/logo2.png" class="logo">
         <div class="banner-text">
             <h1 id="mainTitle">Leguan Tattoo</h1>
             <h2 id="quote">"A testem a naplóm, a tetoválásaim pedig az én történetem."</h2>
