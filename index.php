@@ -1,7 +1,7 @@
 </html>
 
 <head>
-    <title>Leguan Tatoo</title>
+    <title>Leguan Tattoo</title>
     <link rel="stylesheet" href="res\style.css">
 
     <script src="https://kit.fontawesome.com/cd030ff4ce.js" crossorigin="anonymous"></script>
