@@ -674,11 +674,13 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 .footer-img
 {
-    max-width: 370px;
+    width: 50%;
     opacity: 0.2;
     position: absolute;
-    left: 35%;
-
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) 
