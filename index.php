@@ -149,9 +149,6 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, iste?</p>
                     </div>
                 </div>
-                <div class="single-service"></div>
-                <div class="single-service"></div>
-                <div class="single-service"></div>
             </div>
 
         </div>
@@ -171,7 +168,9 @@
             <div class="tattoo1">
             <p>A legfontosabb tudnivaló az, hogy a bőr nem papír.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita minima laborum dolorum quidem qui dignissimos.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sunt dolore odit dolorum vitae. Molestiae adipisci quaerat harum accusamus, reiciendis asperiores repudiandae nostrum, amet quis, odio magnam aut non error dolorum soluta?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Est sunt dolore odit dolorum vitae. 
+            </p>
 
             </div>
         </div>
