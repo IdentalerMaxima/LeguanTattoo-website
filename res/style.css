@@ -275,7 +275,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* RÓLUNK/ABOUT  */
 
-#feature
+#rolunk
 {
     width: 100%;
     padding: 50px 0;
@@ -384,7 +384,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 /* SZOLGÁLTATÁSAINK/SERVICES */
-#service
+#szolgaltatasok
 {
     width: 100%;
     padding: 70px 0;
@@ -490,7 +490,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* A TETOVÁLÁSRÓL */
 
-#about
+#info
 {
     width: 100%;
     padding: 70px 0;
@@ -574,7 +574,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* GALÉRIA */
 
 
-#gallery
+#galeria
 {
     width: 100%;
     box-sizing: border-box;
@@ -647,7 +647,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 }
 
 /* ELÉRHETŐSEG/FOOTER */
-#footer
+#elerhetoseg
 {
     width: 100%;
     padding: 100px 0 20px;
