@@ -26,8 +26,6 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Spectral:ital,wght@1,200&display=swap"
         rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/51d8255158.js" crossorigin="anonymous"></script>
-
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -46,7 +44,7 @@
             <h2 id="quote">"A testem a naplóm, a tetoválásaim pedig az én történetem."</h2>
         </div>
         <div class="container">
-            <a href="#feature" class="btn">
+            <a href="#rolunk" class="btn">
                 <span></span><i class="fa-solid fa-arrow-down fa-3x"></i>
             </a>
         </div>
@@ -60,11 +58,11 @@
     <div class="menu">
         <div>
             <ul>
-                <a href='#feature' ><li>Rólunk</li></a>
-                <a href='#service'><li>Szolgáltatások</li></a>
-                <a href='#about'><li>A tetoválasról</li></a>
-                <a href='#gallery'><li>Galéria</li></a>
-                <a href='#footer'><li>Elérhetőség</li></a>
+                <a href='#rolunk' ><li>Rólunk</li></a>
+                <a href='#szolgaltatasok'><li>Szolgáltatások</li></a>
+                <a href='#info'><li>A tetoválasról</li></a>
+                <a href='#galeria'><li>Galéria</li></a>
+                <a href='#elerhetoseg'><li>Elérhetőség</li></a>
             </ul>
         </div>
     </div>
@@ -73,19 +71,21 @@
         const toggle = document.getElementById('toggle');
 
         document.onclick = function(e){
+        
             if(e.target.id !== 'menu' && e.target.id !== 'toggle'){
                 toggle.checked = false;
             }
+
         }
     </script>
 
     <!-- Rolunk -->
-    <section id="feature">
+
+    <section id="rolunk">
         <div class="title-text">
             <p>ROLUNK</p>
             <h1>Miért válassz minket</h1>
         </div>
-
         <div class="feature-box">
             <div class="features">
                 <h1>Tapasztalat</h1>
@@ -127,7 +127,7 @@
 
     <!-- Szolgaltatasok -->
 
-    <section id="service">
+    <section id="szolgaltatasok">
         <div class="title-text">
             <p>SZOLGÁLTATÁSOK</p>
             <h1>Lorem ipsum dolor sit.</h1>
@@ -166,7 +166,7 @@
     </section>
 
     <!-- A tetovalasrol -->
-    <section id="about">
+    <section id="info">
         <div class="title-text">
             <p>A TETOVÁLÁSRÓL</p>
             <h1>Bőr és tinta</h1>
@@ -187,7 +187,7 @@
     </section>
 
     <!-- Gallery -->
-    <section id="gallery">
+    <section id="galeria">
         <div class="title-text">
             <p>GALÉRIA</p>
             <h1>Munkáim</h1>
@@ -215,7 +215,7 @@
 
     <!-- Footer -->
 
-    <section id="footer">
+    <section id="elerhetoseg">
         <img src="res\tattoom.png" class="footer-img">
         <div class="title-text">
             <p>ELÉRHETŐSÉGEK</p>
@@ -245,8 +245,9 @@
 	speed: 600
     })
     var scroll = null;
+    $.fancybox.defaults.hash = false;
+
 </script>
-<script src="script.js"></script>
 
 </body>
 
