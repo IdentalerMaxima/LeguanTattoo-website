@@ -53,14 +53,14 @@
     </section>
 
     <!-- Menu -->
-    <input type="checkbox" class="toggler">
+    <input type="checkbox" class="toggler" id="toggle">
     <div class="hamburger">
         <div></div>
     </div>
     <div class="menu">
         <div>
             <ul>
-                <a href='#feature'><li>Rólunk</li></a>
+                <a href='#feature' ><li>Rólunk</li></a>
                 <a href='#service'><li>Szolgáltatások</li></a>
                 <a href='#about'><li>A tetoválasról</li></a>
                 <a href='#gallery'><li>Galéria</li></a>
@@ -68,6 +68,16 @@
             </ul>
         </div>
     </div>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+
+        document.onclick = function(e){
+            if(e.target.id !== 'menu' && e.target.id !== 'toggle'){
+                toggle.checked = false;
+            }
+        }
+    </script>
 
     <!-- Rolunk -->
     <section id="feature">
@@ -176,6 +186,7 @@
         </div>
     </section>
 
+    <!-- Gallery -->
     <section id="gallery">
         <div class="title-text">
             <p>GALÉRIA</p>
@@ -231,9 +242,11 @@
 
 <script>
     var scroll = new SmoothScroll('a[href*="#"]', {
-	speed: 1000
-});
+	speed: 600
+    })
+    var scroll = null;
 </script>
+<script src="script.js"></script>
 
 </body>
 
