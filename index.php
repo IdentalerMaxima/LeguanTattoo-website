@@ -4,8 +4,7 @@
     <title>Leguan Tattoo</title>
 
     <link rel="stylesheet" href="res\style.css">
-
-    <script src="https://kit.fontawesome.com/cd030ff4ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\all.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -45,7 +44,7 @@
         </div>
         <div class="container">
             <a href="#rolunk" class="btn">
-                <span></span><i class="fa-solid fa-arrow-down fa-3x"></i>
+                <i class="fa-solid fa-arrow-down fa-3x"></i>
             </a>
         </div>
     </section>
